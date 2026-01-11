@@ -12,7 +12,8 @@ Dasbor SOC
 Lanjutkan perjalanan Anda di dasbor SOC ! Kali ini Anda akan membutuhkannya untuk menulis laporan profesional dan berlatih dalam meningkatkan eskalasi peringatan. Buka situs web terlampir di jendela terpisah dengan mengklik tautan dasbor SOC di bawah ini dan lanjutkan ke tugas berikutnya!
 
 Alert Funnel
-Anda telah mempelajari cara mengklasifikasikan dan memprioritaskan peringatan. Namun, Anda mungkin penasaran tentang apa yang terjadi selanjutnya. Bagaimana prioritas peringatan Anda membantu mencegah ancaman dan menghentikan pelanggaran? Ini adalah topik baru yang akan dibahas di ruangan ini segera, tetapi untuk saat ini, mari kita ingat kembali alur peringatan tersebut.
+Anda telah mempelajari cara mengklasifikasikan dan memprioritaskan peringatan. Namun, Anda mungkin penasaran tentang apa yang terjadi selanjutnya. Bagaimana prioritas peringatan Anda membantu mencegah ancaman dan menghentikan pelanggaran? Ini adalah topik baru yang akan dibahas di ruangan ini segera, tetapi untuk saat ini, mari kita ingat kembali alur peringatan tersebut.<img width="1175" height="539" alt="image" src="https://github.com/user-attachments/assets/444dac09-c2c8-41d9-a8aa-96f6feed7307" />
+
 
 Pertama, analis L1 menerima peringatan di SIEM , EDR , atau platform manajemen tiket. Sebagian besar peringatan ditutup sebagai False Positive atau ditangani di tingkat L1, tetapi peringatan yang kompleks dan mengancam dikirim ke L2 yang menangani sebagian besar pelanggaran. Dan untuk mengirim peringatan lebih lanjut, Anda perlu mempelajari tiga istilah baru: pelaporan, eskalasi, dan komunikasi.
 
@@ -65,12 +66,13 @@ Tindakan perbaikan seperti penghapusan malware, isolasi host, atau pengaturan ul
 Komunikasi dengan pelanggan, mitra, manajemen, atau lembaga penegak hukum diperlukan.
 Anda belum sepenuhnya memahami peringatan tersebut dan membutuhkan bantuan dari analis yang lebih senior.
 Langkah-langkah Eskalasi
-Untuk meningkatkan penanganan peringatan, dalam kebanyakan kasus, yang perlu Anda lakukan hanyalah menetapkan ulang peringatan tersebut kepada L2 yang sedang bertugas dan menghubungi mereka melalui obrolan perusahaan atau secara langsung. Namun, di beberapa tim, Anda mungkin diharuskan untuk membuat permintaan peningkatan penanganan peringatan secara tertulis dengan puluhan kolom yang wajib diisi.
+Untuk meningkatkan penanganan peringatan, dalam kebanyakan kasus, yang perlu Anda lakukan hanyalah menetapkan ulang peringatan tersebut kepada L2 yang sedang bertugas dan menghubungi mereka melalui obrolan perusahaan atau secara langsung. Namun, di beberapa tim, Anda mungkin diharuskan untuk membuat permintaan peningkatan penanganan peringatan secara tertulis dengan puluhan kolom yang wajib diisi.https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1743520297119.svg
 
 Apa pun kesepakatannya, L2 pada akhirnya akan menerima tiket dari Anda, membaca laporan Anda, dan menghubungi Anda jika ada pertanyaan. Setelah semuanya jelas, analis L2 biasanya akan meneliti detail peringatan lebih lanjut, memvalidasi apakah peringatan tersebut memang True Positive, berkomunikasi dengan departemen lain jika diperlukan, dan, untuk insiden besar, memulai proses Tanggap Insiden formal.
 
 Meminta Dukungan L2
-Pada umumnya tidak masalah bagi L1 untuk meminta bantuan senior jika ada sesuatu yang tidak jelas. Terutama di bulan-bulan pertama Anda, selalu lebih baik untuk mendiskusikan peringatan dan mengklarifikasi prosedur SOC daripada menutup peringatan yang tidak Anda pahami sendiri secara membabi buta. Prosedur untuk meminta bantuan mungkin berbeda, tetapi alurnya umumnya seperti ini:
+Pada umumnya tidak masalah bagi L1 untuk meminta bantuan senior jika ada sesuatu yang tidak jelas. Terutama di bulan-bulan pertama Anda, selalu lebih baik untuk mendiskusikan peringatan dan mengklarifikasi prosedur SOC daripada menutup peringatan yang tidak Anda pahami sendiri secara membabi buta. Prosedur untuk meminta bantuan mungkin berbeda, tetapi alurnya umumnya seperti ini:https://tryhackme-images.s3.amazonaws.com/user-uploads/678ecc92c80aa206339f0f23/room-content/678ecc92c80aa206339f0f23-1743520519371.svg
+
 Eskalasi Dasbor SOC
 Tulis laporan peringatan dan berikan penilaian Anda; pindahkan peringatan ke status Sedang Diproses.
 Tetapkan tugas peringatan ini kepada L2 yang sedang bertugas. L2 akan menerima pemberitahuan dan mulai bertugas berdasarkan laporan Anda.
